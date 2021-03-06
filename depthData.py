@@ -16,8 +16,6 @@ SOCKET = "wss://stream.binance.com:9443/ws/btcusdt@depth20"
 
 depthData = {"BTCUSDT":[]}
 
-i = 0
-
 def order(side, quantity, symbol,order_type=ORDER_TYPE_MARKET):
 
     try:
